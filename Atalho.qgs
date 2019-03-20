@@ -1,0 +1,720 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.14">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Checked" id="Quadrante_01_Classificado_tif20180327185827072" source="C:/Users/alan.brum/Desktop/Iniciação Científica/Terceira Etapa do Projeto/Classificação da Bacia do Rio doce/Classificado/Quadrante_1_Classificado/Quadrante_01_Classificado.tif" name="Quadrante_01_Classificado.tif">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="memory" checked="Qt::Checked" id="treinamento20180327160815305" source="MultiPolygon?crs=PROJCS[&quot;WGS 84 / UTM zone 23N&quot;,GEOGCS[&quot;WGS 84&quot;,DATUM[&quot;WGS_1984&quot;,SPHEROID[&quot;WGS 84&quot;,6378137,298.257223563,AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]],PRIMEM[&quot;Greenwich&quot;,0,AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]],UNIT[&quot;degree&quot;,0.0174532925199433,AUTHORITY[&quot;EPSG&quot;,&quot;9122&quot;]],AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]],PROJECTION[&quot;Transverse_Mercator&quot;],PARAMETER[&quot;latitude_of_origin&quot;,0],PARAMETER[&quot;central_meridian&quot;,-45],PARAMETER[&quot;scale_factor&quot;,0.9996],PARAMETER[&quot;false_easting&quot;,500000],PARAMETER[&quot;false_northing&quot;,0],UNIT[&quot;metre&quot;,1,AUTHORITY[&quot;EPSG&quot;,&quot;9001&quot;]],AXIS[&quot;Easting&quot;,EAST],AXIS[&quot;Northing&quot;,NORTH],AUTHORITY[&quot;EPSG&quot;,&quot;32623&quot;]]" name="treinamento">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="band_set_vrt20180327160554536" source="C:/Users/ALAN~1.BRU/AppData/Local/Temp/semiautomaticclassification/20180327_155614017000/20180327_160553362000band_set.vrt" name="band_set.vrt">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B720180327160355132" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B620180327160355098" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B520180327160355052" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B420180327160355021" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B320180327160354993" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" providerKey="gdal" checked="Qt::Unchecked" id="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B220180327160354943" source="U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2.TIF" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>649908.3419374655932188</xmin>
+      <ymin>-2221723.18912182049825788</ymin>
+      <xmax>893119.8419374655932188</xmax>
+      <ymax>-1975046.68912182049825788</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3107</srsid>
+        <srid>32623</srid>
+        <authid>EPSG:32623</authid>
+        <description>WGS 84 / UTM zone 23N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B220180327160354943</item>
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B320180327160354993</item>
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B420180327160355021</item>
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B520180327160355052</item>
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B620180327160355098</item>
+      <item>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B720180327160355132</item>
+      <item>band_set_vrt20180327160554536</item>
+      <item>treinamento20180327160815305</item>
+      <item>Quadrante_01_Classificado_tif20180327185827072</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="Quadrante_01_Classificado.tif" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Quadrante_01_Classificado_tif20180327185827072" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="treinamento" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="treinamento20180327160815305" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="band_set.vrt" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="band_set_vrt20180327160554536" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B720180327160355132" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B620180327160355098" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B520180327160355052" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B420180327160355021" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B320180327160354993" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="RT_LC08_L1TP_217073_20160810_20170322_01_T1_B220180327160354943" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>Quadrante_01_Classificado_tif20180327185827072</id>
+      <datasource>./Quadrante_01_Classificado.tif</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Quadrante_01_Classificado.tif</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" classificationMax="nan" classificationMinMaxOrigin="Unknown" band="1" classificationMin="nan" type="singlebandpseudocolor">
+          <rastershader>
+            <colorrampshader colorRampType="EXACT" clip="0">
+              <item alpha="255" value="0" label="0 - Unclassified" color="#000000"/>
+              <item alpha="255" value="1" label="1 - Agua" color="#00aaff"/>
+              <item alpha="255" value="2" label="2 - Mata" color="#55aa00"/>
+              <item alpha="255" value="3" label="3 - Solo" color="#dad03f"/>
+              <item alpha="255" value="4" label="4 - Area Urbana" color="#ffffff"/>
+              <item alpha="255" value="5" label="5 - Vegetacao" color="#aaff7f"/>
+              <item alpha="255" value="6" label="6 - Eucalipto" color="#ff0000"/>
+              <item alpha="255" value="8" label="8 - Sombra" color="#000000"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B220180327160354943</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.0150559459766372</minValue>
+            <maxValue>0.0566228881045239</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B320180327160354993</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.0209601158751177</minValue>
+            <maxValue>0.0886933876397099</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B420180327160355021</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.0187385495174677</minValue>
+            <maxValue>0.137212206384633</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B520180327160355052</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.108682227858575</minValue>
+            <maxValue>0.343519216813263</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B620180327160355098</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.0818542967773973</minValue>
+            <maxValue>0.398893062619492</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B720180327160355132</id>
+      <datasource>U:/SIG-OBIT/Projetos/Florestacao em APPs/Comparação de Áreas Florestadas/Bolsistas de Iniciação Científica 2017-2018/Imagens de Satélite Abrangendo a Bacia do Rio Doce/Quadrante 1/RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7.TIF</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>0.0384834294142204</minValue>
+            <maxValue>0.257181484810078</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>659685</xmin>
+        <ymin>-2197215</ymin>
+        <xmax>891315</xmax>
+        <ymax>-1962285</ymax>
+      </extent>
+      <id>band_set_vrt20180327160554536</id>
+      <datasource>../../../../../../../ALAN~1.BRU/AppData/Local/Temp/semiautomaticclassification/20180327_155614017000/20180327_160553362000band_set.vrt</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>band_set.vrt</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+        <noDataList bandNo="2" useSrcNoData="1"/>
+        <noDataList bandNo="3" useSrcNoData="1"/>
+        <noDataList bandNo="4" useSrcNoData="1"/>
+        <noDataList bandNo="5" useSrcNoData="1"/>
+        <noDataList bandNo="6" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="2" greenBand="3" type="multibandcolor" redBand="4">
+          <rasterTransparency/>
+          <redContrastEnhancement>
+            <minValue>0.109161332175136</minValue>
+            <maxValue>0.343369147781283</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0.0188509664051235</minValue>
+            <maxValue>0.137327222619206</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0.0209499886548147</minValue>
+            <maxValue>0.088769981760066</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>treinamento20180327160815305</id>
+      <datasource>memory?geometry=MultiPolygon&amp;crs=EPSG:32623&amp;index=yes&amp;field=MC_ID:Integer64(10,0)&amp;field=MC_info:String(254,0)&amp;field=C_ID:Integer64(10,0)&amp;field=C_info:String(254,0)&amp;field=SCP_UID:String(254,0)</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>treinamento</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=23 +datum=WGS84 +units=m +no_defs</proj4>
+          <srsid>3107</srsid>
+          <srid>32623</srid>
+          <authid>EPSG:32623</authid>
+          <description>WGS 84 / UTM zone 23N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">memory</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="MC_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="MC_info">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="C_ID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="C_info">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SCP_UID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,0,0,230"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,230"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield></displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Rótulo"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <annotationform></annotationform>
+      <aliases>
+        <alias field="MC_ID" index="0" name=""/>
+        <alias field="MC_info" index="1" name=""/>
+        <alias field="C_ID" index="2" name=""/>
+        <alias field="C_info" index="3" name=""/>
+        <alias field="SCP_UID" index="4" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="MC_ID" expression=""/>
+        <default field="MC_info" expression=""/>
+        <default field="C_ID" expression=""/>
+        <default field="C_info" expression=""/>
+        <default field="SCP_UID" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <SemiAutomaticClassificationPlugin>
+      <trainingLayer type="QString">C:/Users/alan.brum/Desktop/Training Input File/treinamento.scp</trainingLayer>
+      <bandSetPresent type="QString">Yes</bandSetPresent>
+      <bndSetWvLn type="QString">[2.2, 0.865, 1.61, 0.56, 0.655, 0.48]</bndSetWvLn>
+      <bndSetMultF type="QString">[1.0, 1.0, 1.0, 1.0, 1.0, 1.0]</bndSetMultF>
+      <bndSetUnit type="QString">E-6m</bndSetUnit>
+      <SCP_RGBList type="QString">[u'-', u'3-2-1', u'4-3-2']</SCP_RGBList>
+      <rasterName type="QString"></rasterName>
+      <bandSet type="QString">[u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B2', u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B3', u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B4', u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B5', u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B6', u'RT_LC08_L1TP_217073_20160810_20170322_01_T1_B7']</bandSet>
+      <previewSize type="QString">200</previewSize>
+      <bndSetAddF type="QString">[0.0, 0.0, 0.0, 0.0, 0.0, 0.0]</bndSetAddF>
+    </SemiAutomaticClassificationPlugin>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>
