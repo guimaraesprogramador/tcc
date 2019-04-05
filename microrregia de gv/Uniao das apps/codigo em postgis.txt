@@ -1,0 +1,6 @@
+---intersecao das nascente com a app
+select a.idf,a.nom_tema,a.num_area,a.geom
+into micrroregiao_gv_nascentes
+from public."microrregiao_de_gv_-app"as a,
+public."nascentes_da_microrregaio_de_gv" as s
+where  ST_Intersects(a.geom,s.geom);
