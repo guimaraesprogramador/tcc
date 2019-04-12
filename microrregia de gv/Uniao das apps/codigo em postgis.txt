@@ -1,3 +1,8 @@
+----------------------------------
+insert into cidades(nomes,geom)
+select a.nm_municip,a.geom
+from public."Bacia_MG" as a 
+where a.nm_municip ='DIVINO'
 ---intersecao das nascente com a app
 select w.idf,w.nom_tema,w.num_area,ST_Intersection(w.geom,s.geom)
 into micrroregiao_gv_nascentes
