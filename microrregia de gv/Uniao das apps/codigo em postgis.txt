@@ -1,32 +1,22 @@
-----------------------------------
+--inseir nome na tabela
 insert into cidades(nomes,geom)
 select a.nm_municip,a.geom
 from public."Bacia_MG" as a 
 where a.nm_municip ='DIVINO'
----intersecao das nascente com a app
-select w.idf,w.nom_tema,w.num_area,ST_Intersection(w.geom,s.geom)
-into micrroregiao_gv_nascentes
-from public."microrregiao_de_gv"as w,
-public."nascentes_da_microrregaio_de_gv" as s
-where  ST_Intersects(w.geom,s.geom)=true;
-----
-declare @numero geometry;
-declare @cont int = 0;
-declare a cursor for
-select geom
-from PUBLIC."Quadrante_1_vetor"
-open a 
-
-fetch next from a into @numero
-while @@FETCH_STATUS =0
-begin 
-insert into [dbo].[teste_es](id_muncipio,
-limite_forestacao,id_app,florestacao,area,[AreaM2])
-select a.NM_MUNICIP,a.NUM_AREA,STIntersection(a.geom,@numero),
-a.IDF,a.NOM_TEMA,a.GEOM.STIntersection(@numero).STArea()
-from public."micrroregiao_gv_nascentes" as a
-where @numero.STIntersects(a.geom) = 1  
-FETCH NEXT FROM a into @numero
-end 
-close a
-DEALLOCATE a
+--criar tabela
+create table quadrante_01_nascentes(
+id_muncipio varchar(254),
+limite_forestacao double precision,
+id_app int,
+florestacao varchar(254),
+AreaM2 double precision,
+geom geometry
+)
+--
+insert into public."quadrante_01_nascentes"(id_muncipio,
+limite_forestacao,id_app,florestacao,AreaM2,geom)
+select a.nomes,a.NUM_AREA,
+a.IDF,a.NOM_TEMA,ST_Area(ST_Intersection(shp.geom,a.st_intersection)),ST_Intersection(shp.geom,a.st_intersection)
+from public."gv_nascentes" as a,
+PUBLIC."Quadrante_1_vetor" as shp
+where ST_Intersects(shp.geom,a.st_intersection) = true;
