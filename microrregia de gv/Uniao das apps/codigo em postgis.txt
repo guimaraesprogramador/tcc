@@ -1,4 +1,4 @@
---inseir nome na tabela
+--inseir a tabela das microrregiao de gv
 insert into cidades(nomes,geom)
 select a.nm_municip,a.geom
 from public."Bacia_MG" as a 
