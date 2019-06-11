@@ -1,0 +1,6 @@
+--selecionar cidade da microrregiao de governador valdares sem nascentes
+select cidades.nomes,cidades.geom,mapa.cd_ibge,mapa.evento2014,mapa.uf
+into cidades_secas_nacentes
+from public."Eventos_secas_estiagem" as mapa,
+public."cidades" as cidades
+where cidades.nomes = mapa.municipio
