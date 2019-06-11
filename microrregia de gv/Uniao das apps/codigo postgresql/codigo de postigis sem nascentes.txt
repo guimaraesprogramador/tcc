@@ -1,3 +1,12 @@
+--criar tabela para nascentes secas
+create table nascentes_secas_01(
+ nomes char(254) ,
+ codigo int,
+ numero_eventos char(254) ,
+uf char(254) ,
+geom geometry
+)
+
 --selecionar cidade da microrregiao de governador valdares sem nascentes
 select cidades.nomes,cidades.geom,mapa.cd_ibge,mapa.evento2014,mapa.uf
 into cidades_secas_nacentes
