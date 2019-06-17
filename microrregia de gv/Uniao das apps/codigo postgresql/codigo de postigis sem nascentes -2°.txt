@@ -1,0 +1,24 @@
+--selecionar cidade da microrregiao de governador valdares sem nascentes 2°
+select mapa.municipio,mapa.geom,mapa.cd_ibge,mapa.evento2014,mapa.uf
+into cidades_secas_nacentes
+from public."Eventos_secas_estiagem" as mapa,
+public."cidades" as cidades
+where cidades.nomes = mapa.municipio;
+
+--criar tabela para nascentes secas mata
+create table nascentes_secas_01_mata_2°(
+ nomes char(254) ,
+ codigo int,
+ numero_eventos char(254) ,
+uf char(254) ,
+geom geometry
+);
+
+--insert da tabela com nascentes secas -2°
+insert into public."nascentes_secas_01_mata"(nomes,
+codigo,numero_eventos,uf,geom)
+select a.nomes,
+a.cd_ibge,a.evento2014,a.uf,ST_Intersection(shp.geom,a.geom)
+from public."nascentes_secas_com_validar" as a,
+PUBLIC."Quadrante_1_vetor_mata" as shp
+where ST_Intersects(shp.geom,a.geom) = true;
