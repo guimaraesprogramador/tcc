@@ -22,3 +22,11 @@ a.cd_ibge,a.evento2014,a.uf,ST_Intersection(shp.geom,a.geom)
 from public."nascentes_secas_com_validar" as a,
 PUBLIC."Quadrante_1_vetor_mata" as shp
 where ST_Intersects(shp.geom,a.geom) = true;
+--criar tabela para nascentes secas agua
+create table nascentes_secas_01_agua_2°(
+ nomes char(254) ,
+ codigo int,
+ numero_eventos char(254) ,
+uf char(254) ,
+geom geometry
+)
