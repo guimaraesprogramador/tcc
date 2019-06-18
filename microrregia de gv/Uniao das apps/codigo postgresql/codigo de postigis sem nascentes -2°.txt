@@ -15,12 +15,12 @@ geom geometry
 );
 
 --insert da tabela com nascentes secas -2°
-insert into public."nascentes_secas_01_mata"(nomes,
+insert into public."nascentes_secas_01_agua_2°"(nomes,
 codigo,numero_eventos,uf,geom)
-select a.nomes,
+select a.municipio,
 a.cd_ibge,a.evento2014,a.uf,ST_Intersection(shp.geom,a.geom)
-from public."nascentes_secas_com_validar" as a,
-PUBLIC."Quadrante_1_vetor_mata" as shp
+from public."nós_das_cidades_secas_nascentes" as a,
+PUBLIC."Quadrante_1_vetor_agua" as shp
 where ST_Intersects(shp.geom,a.geom) = true;
 --criar tabela para nascentes secas agua
 create table nascentes_secas_01_agua_2°(
