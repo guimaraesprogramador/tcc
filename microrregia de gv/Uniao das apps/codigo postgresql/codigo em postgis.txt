@@ -13,6 +13,12 @@ AreaM2 double precision,
 geom geometry
 )
 --
+create table cidades(
+nomes varchar(60),
+geom geometry
+);
+
+--
 insert into public."quadrante_01_nascentes"(id_muncipio,
 limite_forestacao,id_app,florestacao,AreaM2,geom)
 select a.nomes,a.NUM_AREA,
