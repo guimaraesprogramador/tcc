@@ -26,3 +26,8 @@ a.IDF,a.NOM_TEMA,ST_Area(ST_Intersection(shp.geom,a.st_intersection)),ST_Interse
 from public."gv_nascentes" as a,
 PUBLIC."Quadrante_1_vetor" as shp
 where ST_Intersects(shp.geom,a.st_intersection) = true;
+
+--validar da dados geometria
+
+update public."nascentes da microrregaio de gv"
+set geom = ST_MakeValid(geom);
