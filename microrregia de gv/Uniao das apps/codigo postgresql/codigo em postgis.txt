@@ -2,9 +2,9 @@
 insert into cidades(nomes,geom)
 select a.nm_municip,a.geom
 from public."Bacia_MG" as a 
-where a.nm_municip ='DIVINO'
+where a.nm_municip ='COROACI'
 --criar tabela
-create table quadrante_01_nascentes(
+create table nascentes_mata_completa(
 id_muncipio varchar(254),
 limite_forestacao double precision,
 id_app int,
@@ -19,7 +19,7 @@ geom geometry
 );
 
 --
-insert into public."quadrante_01_nascentes"(id_muncipio,
+insert into public."nascentes_mata_completa"(id_muncipio,
 limite_forestacao,id_app,florestacao,AreaM2,geom)
 select a.nomes,a.NUM_AREA,
 a.IDF,a.NOM_TEMA,ST_Area(ST_Intersection(shp.geom,a.st_intersection)),ST_Intersection(shp.geom,a.st_intersection)
