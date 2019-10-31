@@ -31,3 +31,11 @@ create table nascentes_secas_01_agua_2°(
 uf char(254) ,
 geom geometry
 )
+----selecionar a quantidade de cada cidade do ANA
+SELECT  count(codigo) as soma
+	FROM public.nascentes_secas_01_mata_2°
+	where  nomes = 'VIRGOLÂNDIA'
+----codigo do numero de nascente por micrroregioa de Gv na ANA
+SELECT  count(cd_ibge) as soma
+	FROM public.nós_das_cidades_secas_nascentes
+	where municipio = 'VIRGOLÂNDIA'

@@ -32,8 +32,12 @@ where ST_Intersects(shp.geom,a.st_intersection) = true;
 update public."nascentes da microrregaio de gv"
 set geom = ST_MakeValid(geom);
 
---selecionar a quantidade de cada cidade
-SELECT id_muncipi, count(id_app) as soma
+--selecionar a quantidade de cada cidade do SICAR
+SELECT COUNT(id_app) as soma
 	FROM public.nascentes_mata_completa
 	where  id_muncipi = 'COROACI'
-	group by id_muncipi, id_app
+
+--codigo do numero de nascente por micrroregioa de Gv no SICAR
+SELECT  count(idf) as soma
+	FROM public.gv_nascentes
+	where  nomes = 'CAMPANÁRIO'
