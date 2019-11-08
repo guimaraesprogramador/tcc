@@ -47,3 +47,7 @@ into recorde_1_02
 from public."Quadrante_1_mata" as recorde,
 public."Quadrante_02_mata" as quadrante
 where ST_Intersects(recorde.geom,quadrante.geom) = true;
+-- remover pontos de geometria 
+delete from public.recorde_quadrante_2_e_9_pontos as pontos_nascentes
+using public."feicoes_das_nascentes_do_sicar_que_estão_dentro_do_quadrante_9" as feicao
+where pontos_nascentes.geom =feicao.geom;
