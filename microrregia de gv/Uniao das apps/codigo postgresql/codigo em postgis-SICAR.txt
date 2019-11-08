@@ -59,11 +59,11 @@ from (
 select quandrante_2.idf,quandrante_2.tema, quandrante_2.nomes,
 	quandrante_2.tamanho_area,quandrante_2.geom
 	from public."intersecao_do_quadrante_2_mata" as quandrante_2
-	UNION
+	UNION ALL
 	select quandrante_9.idf,quandrante_9.tema, quandrante_9.nomes,
 	quandrante_9.tamanho_area,quandrante_9.geom
 	from public."intersecao_do_quadrante_9_mata" as quandrante_9
-	UNION
+	UNION ALL
 	select quandrante_1.idf,quandrante_1.tema, quandrante_1.nomes,
 	quandrante_1.tamanho_area,quandrante_1.geom
 	from public."intersecao_do_quadrante_1_com_recorde_das_nascentes" as quandrante_1
