@@ -42,12 +42,29 @@ SELECT  count(idf) as soma
 	FROM public.gv_nascentes
 	where  nomes = 'CAMPANÁRIO'
 --codigo de interseção entre quadrante 1 e 2
-select ST_Area(ST_Intersection(recorde.geom,quadrante.geom)) as tamanho_area, ST_Intersection(recorde.geom,quadrante.geom)as geom
+select quadrante.idf,quadrante.tema, quadrante.nomes, ST_Area(ST_Intersection(recorde.geom,quadrante.geom)) as tamanho_area, ST_Intersection(recorde.geom,quadrante.geom)as geom
 into recorde_1_02
 from public."Quadrante_1_mata" as recorde,
 public."Quadrante_02_mata" as quadrante
 where ST_Intersects(recorde.geom,quadrante.geom) = true;
+
 -- remover pontos de geometria 
 delete from public.recorde_quadrante_2_e_9_pontos as pontos_nascentes
 using public."feicoes_das_nascentes_do_sicar_que_estão_dentro_do_quadrante_9" as feicao
 where pontos_nascentes.geom =feicao.geom;
+--uniao dos quadrantes
+select x.idf,x.tema,x.nomes,x.tamanho_area,x.geom
+into nascentes_mata_completas
+from (
+select quandrante_2.idf,quandrante_2.tema, quandrante_2.nomes,
+	quandrante_2.tamanho_area,quandrante_2.geom
+	from public."intersecao_do_quadrante_2_mata" as quandrante_2
+	UNION
+	select quandrante_9.idf,quandrante_9.tema, quandrante_9.nomes,
+	quandrante_9.tamanho_area,quandrante_9.geom
+	from public."intersecao_do_quadrante_9_mata" as quandrante_9
+	UNION
+	select quandrante_1.idf,quandrante_1.tema, quandrante_1.nomes,
+	quandrante_1.tamanho_area,quandrante_1.geom
+	from public."intersecao_do_quadrante_1_com_recorde_das_nascentes" as quandrante_1
+)x
