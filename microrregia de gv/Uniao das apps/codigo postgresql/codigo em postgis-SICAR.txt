@@ -42,7 +42,7 @@ SELECT  count(idf) as soma
 	FROM public.gv_nascentes
 	where  nomes = 'CAMPANÁRIO'
 --codigo de interseção entre quadrante 1 e 2
-select quadrante.idf,quadrante.tema, quadrante.nomes, ST_Area(ST_Intersection(recorde.geom,quadrante.geom)) as tamanho_area, ST_Intersection(recorde.geom,quadrante.geom)as geom
+select quadrante.idf,quadrante.tema, quadrante.nomes,ST_Intersection(recorde.geom,quadrante.geom)as geom
 into recorde_1_02
 from public."Quadrante_1_mata" as recorde,
 public."Quadrante_02_mata" as quadrante
